@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:musicapp/AnxietyAndStress.dart';
+import 'package:musicapp/FallingAsleep.dart';
+import 'package:musicapp/Focus.dart';
 import 'package:musicapp/constants.dart';
+
+import 'Relax.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -36,7 +40,7 @@ class _HomePageState extends State<HomePage> {
                       child: GestureDetector(
                         onTap: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                              builder: (context) => MyApp()));
+                              builder: (context) => Anxiety()));
                         },
                         child: reusableContainer(
                           imageofCard: AssetImage('assets/1.jpeg'),
@@ -53,8 +57,8 @@ class _HomePageState extends State<HomePage> {
                       flex: 1,
                       child: GestureDetector(
                         onTap: () {
-//                            Navigator.of(context).push(MaterialPageRoute(
-//                                builder: (context) => Providers()));
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => Relax()));
                         },
                         child: reusableContainer(
                           imageofCard: AssetImage('assets/2.jpeg'),
@@ -77,8 +81,8 @@ class _HomePageState extends State<HomePage> {
                       flex: 1,
                       child: GestureDetector(
                         onTap: () {
-//                            Navigator.of(context).push(MaterialPageRoute(
-//                                builder: (context) => Clients()));
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => FallingAsleep()));
                         },
                         child: reusableContainer(
                           imageofCard: AssetImage('assets/3.jpeg'),
@@ -95,8 +99,8 @@ class _HomePageState extends State<HomePage> {
                       flex: 1,
                       child: GestureDetector(
                         onTap: () {
-//                            Navigator.of(context).push(MaterialPageRoute(
-//                                builder: (context) => Providers()));
+                            Navigator.of(context).push(MaterialPageRoute(
+                                builder: (context) => Focusmusic()));
                         },
                         child: reusableContainer(
                           imageofCard: AssetImage('assets/4.jpeg'),

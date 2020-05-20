@@ -27,13 +27,7 @@ class _MyApp1State extends State<MyApp1> {
     {
       "title": "Assets",
       "desc": "local assets playback",
-      "url": "audios/abc.mp3",
-      "coverUrl": "assets/1.jpeg"
-    },
-    {
-      "title": "Assets",
-      "desc": "local assets playback",
-      "url": "audios/abc.mp3",
+     // "url": "audios/abc.mp3",
       "coverUrl": "assets/1.jpeg"
     },
     {
