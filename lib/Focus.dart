@@ -33,7 +33,7 @@ class _FocusmusicState extends State<Focusmusic> {
       print(error);
     });
     _player2
-        .setAsset("audios/Rutlingbushwindyday.mp3")
+        .setAsset("audios/Rustlingbushwindyday.mp3")
         .catchError((error){
       print(error);
     });
